@@ -42,7 +42,9 @@ const main = async() => {
                 continue;           
         };
 
-        game(chances);
+        console.log(`Great! You have selected the ${difficult} difficulty level. Let's start the game!`);
+
+        game(chances, difficult);
 
         const playAgain = await AskQuestions('Do you want to play again? (yes/no): ');
         play = playAgain.toLowerCase() === 'yes';
@@ -51,5 +53,7 @@ const main = async() => {
 };
 
 main();
+
+module.exports = { AskQuestions };
 
 

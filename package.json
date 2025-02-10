@@ -1,0 +1,26 @@
+{
+  "name": "number-guessing-game",
+  "version": "1.0.0",
+  "description": "Aplikasi permainan sederhana untuk menguji keberuntunganmu dalam menebak angka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadFarrel4148/Number-Guessing-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadFarrel4148/Number-Guessing-Game/issues"
+  },
+  "homepage": "https://github.com/MuhammadFarrel4148/Number-Guessing-Game#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9"
+  }
+}
