@@ -4,7 +4,7 @@
   "description": "Aplikasi permainan sederhana untuk menguji keberuntunganmu dalam menebak angka",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env NODE_ENV=development nodemon ./src/main.js"
   },
   "repository": {
     "type": "git",
